@@ -1,0 +1,27 @@
+name:                shake-teyjus
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/konn/shake-teyjus#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Hiromi ISHII
+maintainer:          konn.jinro _at_ gmail.com
+copyright:           2015 (c) Hiromi ISHII
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable tjmake
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-I0 -with-rtsopts=-N
+  build-depends:       base
+                     , shake
+                     , text
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/konn/shake-teyjus

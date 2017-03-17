@@ -1,0 +1,37 @@
+
+./app/Main.hs,130
+module Main Main0,1
+main main7,8
+main main8,9
+processTjDepend processTjDepend23,24
+processTjDepend processTjDepend24,25
+
+./Setup.hs,15
+main main1,2
+
+./src/Language/Teyjus.hs,524
+module Language.Teyjus Language.Teyjus1,2
+spaces spaces14,15
+spaces spaces15,16
+line line17,18
+line line18,19
+ident ident20,21
+ident ident21,22
+program program23,24
+program program24,25
+reserved reserved26,27
+reserved reserved27,28
+tokenChar tokenChar32,33
+tokenChar tokenChar33,34
+accDirectives accDirectives35,36
+accDirectives accDirectives36,37
+comma comma38,39
+comma comma39,40
+imports imports41,42
+imports imports42,43
+extractDeps extractDeps44,45
+extractDeps extractDeps45,46
+
+./test/Spec.hs,30
+main main0,1
+main main1,2
